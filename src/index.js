@@ -1,5 +1,5 @@
 (function () {
-  const tekstai = ["Labas mama", "Kaip tau sekasi?", "Tuoj Tuoj Tuoj"];
+  const tekstai = window.frazes;
 
   let atsitiktinisTekstas = atrinkTeksta(tekstai);
 
