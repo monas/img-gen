@@ -1,14 +1,24 @@
+body {
+  margin: 0;
+}
+
 .fonas {
   position: relative;
   display: flex;
   position: relative;
   background-color: aqua;
   background-size: cover;
-  min-width: 50%;
-  min-height: 50vh;
-  background-size: contain;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   align-items: center;
   justify-content: center;
+}
+
+.textas-blokas {
+  padding: 30px;
+  font-size: 50px;
+  max-width: 60vw;
 }
