@@ -92,6 +92,9 @@ function invertColor(hex, bw) {
   return "#" + padZero(r) + padZero(g) + padZero(b);
 }
 
+/**
+ * padZero
+ */
 function padZero(str, len) {
   len = len || 2;
   var zeros = new Array(len).join("0");
