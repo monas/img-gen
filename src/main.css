@@ -1,0 +1,14 @@
+.fonas {
+  position: relative;
+  display: flex;
+  position: relative;
+  background-color: aqua;
+  background-size: cover;
+  min-width: 50%;
+  min-height: 50vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+}
